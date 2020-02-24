@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="234dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/enter_nickname"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/change_button"
+        android:layout_width="146dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:fontFamily="@font/roboto"
+        android:text="@string/change_name"
+        android:textColor="#F5FDFDFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/retry_button"
+        style="@style/Button_color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retry_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tile_53"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:text="Nickname"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/change_button" />
+
+    <TextView
+        android:id="@+id/tile_11"
+        style="@style/white2"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nickname_text" />
+
+    <TextView
+        android:id="@+id/tile_14"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_13"
+        app:layout_constraintTop_toBottomOf="@+id/nickname_text" />
+
+    <TextView
+        android:id="@+id/tile_15"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_14"
+        app:layout_constraintTop_toBottomOf="@+id/nickname_text" />
+
+    <TextView
+        android:id="@+id/tile_12"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_11"
+        app:layout_constraintTop_toBottomOf="@+id/nickname_text" />
+
+    <TextView
+        android:id="@+id/tile_13"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_12"
+        app:layout_constraintTop_toBottomOf="@+id/nickname_text" />
+
+    <TextView
+        android:id="@+id/tile_25"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_24"
+        app:layout_constraintTop_toBottomOf="@+id/tile_15" />
+
+    <TextView
+        android:id="@+id/tile_23"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_24"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_22"
+        app:layout_constraintTop_toBottomOf="@+id/tile_13" />
+
+    <TextView
+        android:id="@+id/tile_24"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_25"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_23"
+        app:layout_constraintTop_toBottomOf="@+id/tile_14" />
+
+    <TextView
+        android:id="@+id/tile_21"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_22"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tile_11" />
+
+    <TextView
+        android:id="@+id/tile_22"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_23"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_21"
+        app:layout_constraintTop_toBottomOf="@+id/tile_12" />
+
+    <TextView
+        android:id="@+id/tile_35"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_34"
+        app:layout_constraintTop_toBottomOf="@+id/tile_25" />
+
+    <TextView
+        android:id="@+id/tile_32"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_33"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_31"
+        app:layout_constraintTop_toBottomOf="@+id/tile_22" />
+
+    <TextView
+        android:id="@+id/tile_34"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_35"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_33"
+        app:layout_constraintTop_toBottomOf="@+id/tile_24" />
+
+    <TextView
+        android:id="@+id/tile_31"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_32"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tile_21" />
+
+    <TextView
+        android:id="@+id/tile_33"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_34"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_32"
+        app:layout_constraintTop_toBottomOf="@+id/tile_23" />
+
+    <TextView
+        android:id="@+id/tile_45"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_44"
+        app:layout_constraintTop_toBottomOf="@+id/tile_35" />
+
+    <TextView
+        android:id="@+id/tile_42"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_43"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_41"
+        app:layout_constraintTop_toBottomOf="@+id/tile_32" />
+
+    <TextView
+        android:id="@+id/tile_43"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_44"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_42"
+        app:layout_constraintTop_toBottomOf="@+id/tile_33" />
+
+    <TextView
+        android:id="@+id/tile_41"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_42"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tile_31" />
+
+    <TextView
+        android:id="@+id/tile_44"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_45"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_43"
+        app:layout_constraintTop_toBottomOf="@+id/tile_34" />
+
+    <TextView
+        android:id="@+id/tile_55"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_54"
+        app:layout_constraintTop_toBottomOf="@+id/tile_45" />
+
+    <TextView
+        android:id="@+id/tile_51"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_52"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tile_41" />
+
+    <TextView
+        android:id="@+id/tile_54"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_55"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_53"
+        app:layout_constraintTop_toBottomOf="@+id/tile_44" />
+
+    <TextView
+        android:id="@+id/tile_52"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/retry_button"
+        app:layout_constraintEnd_toStartOf="@+id/tile_53"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_51"
+        app:layout_constraintTop_toBottomOf="@+id/tile_42"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tile_53"
+        style="@style/white2"
+        android:layout_width="@dimen/size_70dp"
+        android:layout_height="@dimen/size_70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/tile_54"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tile_52"
+        app:layout_constraintTop_toBottomOf="@+id/tile_43" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
