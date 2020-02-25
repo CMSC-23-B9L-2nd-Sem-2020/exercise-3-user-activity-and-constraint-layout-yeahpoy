@@ -3,4 +3,7 @@
     <string name="change_name">Change Nickname</string>
     <string name="enter_nickname">Enter nickname</string>
     <string name="retry_text">Retry</string>
+    <string name="clicks">Number of Clicks: </string>
+    <string name="numberOfClicks"> 0 </string>
+    <string name="winText">You win!</string>
 </resources>
