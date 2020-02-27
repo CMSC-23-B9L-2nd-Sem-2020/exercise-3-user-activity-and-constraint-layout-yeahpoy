@@ -6,4 +6,6 @@
     <string name="clicks">Number of Clicks: </string>
     <string name="numberOfClicks"> 0 </string>
     <string name="winText">You win!</string>
+    <string name="nickname">Nickname</string>
+    <string name="clickCounter">0</string>
 </resources>
